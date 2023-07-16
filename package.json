@@ -1,0 +1,16 @@
+{
+  "name": "project-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "author": "Oksana Jibai",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "cross-env": "^7.0.3"
+  }
+}
